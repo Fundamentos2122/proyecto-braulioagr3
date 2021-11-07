@@ -265,6 +265,11 @@
     display: none;
 }
 
+.nav-item>form{
+    height: auto;
+
+}
+
 @media (max-width: 500px) {
     .navbar-nav{
         flex-direction: column;

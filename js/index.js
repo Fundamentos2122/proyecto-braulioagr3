@@ -16,12 +16,12 @@ function loadMainMenu(){
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="" class="nav-link h4">
-                                                Barra de busqueda
-                                            </a>
+                                            <form>
+                                                <input type="text" placeholder="Busqueda">
+                                            </form>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="" class="nav-link h4">Carrito</a>
+                                            <a href="shoppingCart.html" class="nav-link h4">Carrito</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="login.html" class="nav-link h4">Iniciar Sesión</a>
