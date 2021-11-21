@@ -15,7 +15,7 @@ function loadMainMenu(){
                                                     <img src="images/logo.png" alt="Logo">
                                             </a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item hidden">
                                             <form>
                                                 <input type="text" placeholder="Busqueda">
                                             </form>
