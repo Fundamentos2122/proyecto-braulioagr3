@@ -1,18 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/framework.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/framework.css" />
     <script src="js/index.js"></script>
     <title>La guarida del lector</title>
-</head>
-<body onload="documentLoad()" >
-    <div id="Header" class="">
+  </head>
+  <body onload="documentLoad()">
+    <div id="Header" class=""></div>
+    <div id="Menu" class=""></div>
+    <div class="container-fluid" style="height: auto;">
+      <div id="shoppingCart" class="row">
+        <div
+          id="DetallesCompra"
+          class="col-md-7 col-sm-12"
+        >
+          <div class="h5">Detalles de compra</div>
+          <div class="compra border border-primary">
+            <div id="datosEnvio" class="row">
+              <div class="h5">Datos de envio</div>
+              <div class="shopping-info border">
+                Braulio Alejandro García Rivera <br>
+                Dirección de envío <br>
+                Calzada del Parque Privada Alcazar No.294, Int.152 <br>
+                VALLE REALSOLEDAD DE GRACIANO SANCHEZ, <br>
+                SAN LUIS POTOSI <br>
+                78437
+              </div>
+            </div>
+            <div id="Resumen" class="row">
+              <div class="h5">Resumen de pedido</div>
+              <div class="shopping-info border">
+                Productos: $5,500.00 MXN <br>
+                Envio: $0.00 MXN <br>
+                Subtotal: $5,500.00 MXN <br>
+                Descuento: -$0.00 MXN <br>
+                Total (Iva incluido): $5,500.00 MXN <br>
+              </div>
+            </div>
+            <div class="btn-primary">Comprar</div>
+          </div>
+        </div>
+        <br />
+        <div id="listaCompras" class="col-md-5 col-sm-12 border border-success">
+          <div class="h5">Resumen de pedido</div>
+
+          <div class="lista">
+            <select name="Cart" size="7">
+              <option value="H1">
+                Harry Potter y la piedra filosofal - $300.00 MNX
+              </option>
+              <option value="H2">
+                Harry Potter y la camara secreta - $300.00 MNX
+              </option>
+              <option value="H3">
+                Harry Potter y el prisionero de Azkaban - $300.00 MNX
+              </option>
+              <option value="H4">
+                Harry Potter y el caliz de fuego - $300.00 MNX
+              </option>
+
+              <option value="H5">
+                Harry Potter y la orden del fenix - $300.00 MNX
+              </option>
+              <option value="H6">
+                Harry Potter y el principe mestizo - $300.00 MNX
+              </option>
+              <option value="H7">
+                Harry Potter y las reliquias de la muerte - $300.00MNX
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="Menu" class="">
-    </div>
-    
-</body>
+  </body>
 </html>
