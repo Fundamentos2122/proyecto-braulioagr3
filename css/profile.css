@@ -1,18 +1,4 @@
 #Shopping,
 #Sales{
     padding: 0.5em;
-    width: 100%;
 }
-
-
-
-table, th, td {
-  border: 1px solid black;
-}
-
-#Shopping>thead,
-#Sales>thead{color: green;}
-#Shopping>tbody,
-#Sales>tbody {color: blue;}
-#Shopping>tfoot,
-#Sales>tfoot {color: red;}

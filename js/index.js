@@ -79,7 +79,7 @@ function loadElements(inicio){
     var html;
     html =  '<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo"></a>';
     html += '<div class="navbar-collapse"> <ul class="navbar-nav">';
-    html += '<li class="nav-item text-left hidden"> <input type="text" placeholder="🔍 Busqueda"> </li>'; //Insertar Barra de busqueda
+    html += '<li class="nav-item hidden"> <input type="text" placeholder="🔍 Busqueda"> </li>'; //Insertar Barra de busqueda
     if(inicio){
         html += '<li class="nav-item"> <a href="shoppingCart.html" class="nav-link h4">🛒 Carrito</a> </li>'; //Insertar Carrito de compras
         html += '<li class="nav-item"> <a href="profile.html" class="nav-link h4"> Perfil </a> </li>';//Inserta perfil
