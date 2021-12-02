@@ -9,10 +9,9 @@ function loadMainMenu(){
     var encabezado;
     var html;
     encabezado = document.getElementById('Header');
-    html =  '<nav class="navbar"> <div class="navbar-collapse"> <ul class="navbar-nav">';
-    debugger;
+    html =  '<nav class="navbar">';
     html += loadElements(this.inicio);
-    html += '</ul></div> </nav>';
+    html += ' </nav>';
     encabezado.innerHTML =html;
 }
 
@@ -44,7 +43,6 @@ function loadMenu(){
 }
 
 function login(){
-    debugger;
     var user;
     var pass;
     user = document.getElementById("loginUser").value;
@@ -79,15 +77,17 @@ function menuAction(){
 
 function loadElements(inicio){
     var html;
-    html =  '<li class="nav-item"> <a href="index.html" class="nav-link"> <img src="images/logo.png" alt="Logo"> </a> </li>'; //Insertar Logo
-    html += '<li class="nav-item hidden"> <form> <input type="text" placeholder="Busqueda"> </form> </li>'; //Insertar Barra de busqueda
-    html += '<li class="nav-item"> <a href="shoppingCart.html" class="nav-link h4">Carrito</a> </li>'; //Insertar Carrito de compras
+    html =  '<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo"></a>';
+    html += '<div class="navbar-collapse"> <ul class="navbar-nav">';
+    html += '<li class="nav-item text-left hidden"> <input type="text" placeholder="🔍 Busqueda"> </li>'; //Insertar Barra de busqueda
     if(inicio){
-        html += '<li class="nav-item"> <a href="profile.html" class="nav-link h4"> Iniciar Sesión </a> </li>';
+        html += '<li class="nav-item"> <a href="shoppingCart.html" class="nav-link h4">🛒 Carrito</a> </li>'; //Insertar Carrito de compras
+        html += '<li class="nav-item"> <a href="profile.html" class="nav-link h4"> Perfil </a> </li>';//Inserta perfil
     }
     else{
-        html += '<li class="nav-item"> <a href="login.html" class="nav-link h4"> Iniciar Sesión </a> </li>'; //Insertar Inicio de Sesión
-        html += '<li class="nav-item"> <a href="singup.html" class="nav-link h4"> Registro </a> </li>'; //Insertar Registro
+        html += '<li class="nav-item"> <a href="login.html" class="nav-link h4"> 📖 Iniciar Sesión </a> </li>'; //Insertar Inicio de Sesión
+        html += '<li class="nav-item"> <a href="singup.html" class="nav-link h4"> ✏️ Registro </a> </li>'; //Insertar Registro
     }
+    html += '</ul></div>';
     return html;                         
 }
