@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link rel="stylesheet" href="css/framework.css">
+    <script src="js/index.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>La guarida del lector</title>
 </head>
-<body>
-    
+<body onload="documentLoad()">
+    <div id="Header" class=""></div>
+    <div id="Menu" class=""></div>
+    <div>
+        <div class="h4">Ventas</div>
+        <table id="Shopping">
+            <thead>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Autor</th>
+                    <th>Genero</th>
+                    <th>Editorial</th>
+                    <th>Precio</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Harry Potter y la piedra filosofal</td>
+                    <td>J.K Rowling</td>
+                    <td>Fantasia</td>
+                    <td>Salamandra</td>
+                    <td>$300.00</td>
+                    <td>Vendido</td>
+                </tr>
+                <tr>
+                    <td>La Llamada de Cthulhu</td>
+                    <td>H.P Lovecraft</td>
+                    <td>Terror</td>
+                    <td>Plantea</td>
+                    <td>$200.00</td>
+                    <td>Pendiente</td>
+                </tr>
+                <tr>
+                    <td>El cuervo y otros cuentos</td>
+                    <td>E.A Poe</td>
+                    <td>Policiaco</td>
+                    <td>Grupo Editorial Tomo</td>
+                    <td>$150.00</td>
+                    <td>Vendido</td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+    <div>
+        <div class="h4">Compras</div>
+        <table id="Sales">
+            <tr>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Genero</th>
+                <th>Editorial</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Harry Potter y la piedra filosofal</td>
+                <td>J.K Rowling</td>
+                <td>Fantasia</td>
+                <td>Salamandra</td>
+                <td>$300.00</td>
+            </tr>
+            <tr>
+                <td>La Llamada de Cthulhu</td>
+                <td>H.P Lovecraft</td>
+                <td>Terror</td>
+                <td>Plantea</td>
+                <td>$200.00</td>
+            </tr>
+            <tr>
+              <td>El cuervo y otros cuentos</td>
+              <td>E.A Poe</td>
+              <td>Policiaco</td>
+              <td>Grupo Editorial Tomo</td>
+              <td>$150.00</td>
+            </tr>
+          </table>
+    </div>
 </body>
 </html>

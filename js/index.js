@@ -1,4 +1,4 @@
-var inicio = true;
+var inicio = false;
 function documentLoad(){
     loadMainMenu();
     loadMenu();
