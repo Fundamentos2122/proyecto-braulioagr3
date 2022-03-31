@@ -2,9 +2,6 @@
 ## objective
 El objetivo de este proyecto es desarrollar un e-commerce para una libreria ficticia.
 
-### Asesor
-- D.C.S José Ignacio Núñez Varela
-
 ### Desarrollador
 - Braulio Alejandro García Rivera
 
